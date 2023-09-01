@@ -5,13 +5,10 @@ import time
 
 led = Pin(5, Pin.OUT)#LED位置是連接在第五腳位，狀態設置為輸出
 '''
-# 创建PWM对象以控制亮度
+# 撞見PWM物件以控制亮度
 led_pwm = PWM(led_pin)
-
-# 设置初始颜色（关闭LED）
-led_pwm.duty(0)  # 设置初始亮度为0，即关闭LED
-
-
+# 設置初始颜色（關閉LED）
+led_pwm.duty(0)  # 設置初始亮度為0，即關閉LED
 led_pwm.duty(100)
 '''
 while True:
