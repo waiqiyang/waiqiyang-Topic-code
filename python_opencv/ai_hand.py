@@ -53,6 +53,6 @@ while True:
         cv2.putText(img, f"FPS : {int(fps)}", (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 3)
         # 在畫面中顯示出
         cv2.imshow('img', img)
-        # 當輸入為空白鍵時，跳出迴圈
+    # 當輸入為空白鍵時，跳出迴圈
     if cv2.waitKey(1) == ord(' '):
         break
